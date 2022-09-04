@@ -1,0 +1,265 @@
+*{
+
+    margin: 0px;
+    padding: 0;
+}
+
+
+html {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: medium;
+
+}
+body{
+    background-color: white;
+}
+
+.section{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+margin-right: 15px;
+margin-left: 15px;
+text-align:justify;
+}
+    
+ 
+
+
+
+.micolor{ 
+    color: orange;
+}
+
+#miid{
+    color: palevioletred;
+}
+
+.mifuente{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.caja{
+    border-top: 2px solid;
+border-right: 2px solid;
+border-left: 4px solid;
+border-bottom:  3px solid ;
+padding-top: 10px;
+padding-right: 10px;
+padding-bottom: 10px;
+padding-left: 10px ;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-left: 10px;
+margin-right: 30px;
+
+font-family: Dancing Script;
+}
+
+.header {
+background: rgb(230, 88, 36);
+color: aliceblue;
+height: 70px;
+width: 60;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 5px;
+margin-top:  30px;
+}
+
+
+.footer {
+background: rgb(252, 130, 86);
+color: aliceblue;
+font-size: x-large;
+font-family: 'Times New Roman', Times, serif;
+height: 80;
+width: auto;
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 10;
+text-align: center;
+text-transform: inherit;
+}
+
+
+
+
+
+
+h1{
+    color: rgb(158, 106, 9);
+    text-align: center;
+    font-size: 40px;
+font-style: oblique;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+h2{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(236, 75, 11);
+    margin-left: 30px;
+    text-align: justify;
+    text-decoration: underline;
+}
+
+h3{font-size: 28px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-left: 30px;
+margin-bottom: 30px;
+color: rgb(190, 103, 3);
+}
+
+
+.margin{
+    
+    width: 80;
+    margin-right: 30px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    }
+
+    .logo{
+    text-transform: capitalize;
+    }
+    
+    .logo a{
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    font-family: Antonio;
+    font-size: 30px;
+    
+    }
+    
+    .mifuente{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    font-style: italic;
+    }
+
+.mapa{
+    
+    
+    width: 5px;
+}
+
+.ubicacion{
+font-size: small;
+
+}
+
+
+
+
+.navbar{
+
+color: rgb(63, 46, 14);
+font-family: Arial, Helvetica, sans-serif;
+font-size: smaller;
+background-color: beige;
+height: 22px;
+width: auto;
+margin-right: 10px;
+margin-left: 5px;
+margin-bottom: 10px;
+margin-top: 10px;
+box-sizing: content-box;
+padding: 10px;
+
+
+}
+
+
+.navbar ul{
+
+    text-align: right;
+}
+.navbar ul li {
+    display: contents;
+}
+.navbar ul a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(252, 84, 7);
+}
+
+.navbar ul li a:hover{
+    background-color: rgb(148, 64, 64);
+color: rgb(226, 117, 134);
+
+}
+.navsec{
+    text-align:center;
+    text-decoration: solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+    margin-left: 10px;
+margin-right: 10px;
+background-color: rgb(196, 78, 78);
+font-size: 20px;
+font-style: unset;
+color: azure;
+
+}
+.navsec ul li {
+display: contents;
+}
+
+
+
+
+
+.navsec ul li a:hover{
+    background-color: rgb(175, 175, 109);
+    color: rgb(230, 146, 20);
+}
+
+
+
+#portada{
+    align-items: center;
+width: 70%;
+background-color: rgb(255, 255, 255);
+padding: 7px;
+box-sizing: content-box ;
+text-decoration: none;
+text-align: center;
+}
+
+
+.destacado{
+background-color: rgb(231, 41, 41);
+padding: 5px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: xx-large;
+}
+
+.videos{
+    width: 1000px;
+    height: 400px;
+    padding: 15px;
+    box-shadow: inset;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.fotos {
+    box-decoration-break: clone;
+    margin-left: 10px;
+    margin-right: 20px;
+    
+}
+.figcaption{
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+margin-top: 1px;
+margin-left: 10px;
+margin-bottom: 1px;
+
+}
+
+
+
