@@ -11,7 +11,7 @@ font-size: medium;
 
 }
 body{
-    background-color: white;
+    background-color: rgb(222, 243, 182);
 }
 
 .section{
@@ -27,11 +27,11 @@ text-align:justify;
 
 
 .micolor{ 
-    color: orange;
+    color: rgb(0, 63, 6);
 }
 
 #miid{
-    color: palevioletred;
+    color: rgb(15, 228, 61);
 }
 
 .mifuente{
@@ -58,7 +58,7 @@ font-family: Dancing Script;
 }
 
 .header {
-background: rgb(230, 88, 36);
+background: rgb(106, 172, 1);
 color: aliceblue;
 height: 70px;
 width: 60;
@@ -70,10 +70,10 @@ margin-top:  30px;
 
 
 .footer {
-background: rgb(252, 130, 86);
+background: rgb(2, 102, 27);
 color: aliceblue;
 font-size: x-large;
-font-family: 'Times New Roman', Times, serif;
+font-family: Dancing Script;
 height: 80;
 width: auto;
 margin-right: auto;
@@ -89,7 +89,7 @@ text-transform: inherit;
 
 
 h1{
-    color: rgb(158, 106, 9);
+    color: rgb(99, 64, 1);
     text-align: center;
     font-size: 40px;
 font-style: oblique;
@@ -99,7 +99,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 h2{
     font-size: 30px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(236, 75, 11);
+    color: rgb(15, 80, 3);
     margin-left: 30px;
     text-align: justify;
     text-decoration: underline;
@@ -109,8 +109,9 @@ h3{font-size: 28px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 margin-left: 30px;
 margin-bottom: 30px;
-color: rgb(190, 103, 3);
+color: rgb(3, 190, 112);
 }
+
 
 
 .margin{
@@ -123,6 +124,7 @@ color: rgb(190, 103, 3);
 
     .logo{
     text-transform: capitalize;
+    text-align: end;
     }
     
     .logo a{
@@ -131,6 +133,10 @@ color: rgb(190, 103, 3);
     font-family: Antonio;
     font-size: 30px;
     
+    }
+
+    .limparfloat{
+        clear: both;
     }
     
     .mifuente{
@@ -141,24 +147,34 @@ color: rgb(190, 103, 3);
 
 .mapa{
     
-    
+    margin-right: 30px;
+    margin-left: 30px;
     width: 5px;
 }
 
 .ubicacion{
 font-size: small;
-
+margin-left: 30px;
 }
 
+.form{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+    text-align: right;
+    box-shadow: inset;
+    margin-right: 15px;
+    
+}
 
+.form 
 
 
 .navbar{
 
-color: rgb(63, 46, 14);
+color: rgb(20, 255, 98);
 font-family: Arial, Helvetica, sans-serif;
 font-size: smaller;
-background-color: beige;
+background-color: rgb(18, 139, 34);
 height: 22px;
 width: auto;
 margin-right: 10px;
@@ -182,26 +198,31 @@ padding: 10px;
 .navbar ul a {
     text-decoration: none;
     padding: 10px;
-    color: rgb(252, 84, 7);
+    color: #063b06;
 }
 
 .navbar ul li a:hover{
-    background-color: rgb(148, 64, 64);
-color: rgb(226, 117, 134);
+    background-color: #026b22;
+color: rgb(4, 94, 9);
 
 }
 .navsec{
     text-align:center;
-    text-decoration: solid;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: #063b06;
+    font-family: Arial, Helvetica, sans-serif;
   color: aliceblue;
     margin-left: 10px;
 margin-right: 10px;
-background-color: rgb(196, 78, 78);
-font-size: 20px;
+background-color: #026b22;
+font-size: 17px;
 font-style: unset;
-color: azure;
+box-sizing: border-box;
+padding: auto;
 
+}
+.navsec li a {
+    font-style: oblique;
+ color: rgb(255, 255, 255);
 }
 .navsec ul li {
 display: contents;
@@ -212,8 +233,8 @@ display: contents;
 
 
 .navsec ul li a:hover{
-    background-color: rgb(175, 175, 109);
-    color: rgb(230, 146, 20);
+    background-color: rgb(95, 255, 167);
+    color: rgb(252, 252, 252);
 }
 
 
@@ -229,7 +250,7 @@ text-align: center;
 }
 
 
-.destacado{
+.destacado :default{
 background-color: rgb(231, 41, 41);
 padding: 5px;
 font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -244,6 +265,11 @@ font-size: xx-large;
     margin-left: 30px;
     margin-right: 30px;
     
+}
+
+.flotar{
+
+    float: right;
 }
 
 .fotos {
